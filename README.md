@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Usage
 
-Abaco extends the `Numeric` class, so you can use with `Fixnum`s and `Float`s:
+Abaco extends the `Numeric` class, so you can use with `Fixnum` and `Float`:
 
 ```ruby
 15.to_italian # <= "quindici/00"
@@ -49,7 +49,7 @@ this library is mainly meant to be used for billing purposes, we didn't find it
 necessary to go beyond that limit.
 
 If you're billing someone for one trillion, contact us right away: we'll be glad
-to help you!
+to help you! :)
 
 ## Contributing
 
