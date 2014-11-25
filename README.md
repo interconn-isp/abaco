@@ -28,9 +28,18 @@ Or install it yourself as:
 
 ## Usage
 
+Abaco extends the `Numeric` class, so you can use with `Fixnum`s and `Float`s:
+
 ```ruby
-15.to_italian # <= "quindici"
-15.5.to_italian # <= "quindici/5"
+15.to_italian # <= "quindici/00"
+15.5.to_italian # <= "quindici/50"
+```
+
+You can also call the convert directly:
+
+```ruby
+Abaco::Converter.convert(15) # <= "quindici/00"
+Abaco::Converter.convert(15.5) # <= "quindici/50"
 ```
 
 ## Limitations
