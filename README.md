@@ -1,5 +1,6 @@
 # Abaco
 
+[![Gem Version](https://badge.fury.io/rb/abaco.svg)](http://badge.fury.io/rb/abaco)
 [![Build Status](https://travis-ci.org/interconn-isp/abaco.svg?branch=master)](https://travis-ci.org/interconn-isp/abaco)
 [![Dependency Status](https://gemnasium.com/interconn-isp/abaco.svg)](https://gemnasium.com/interconn-isp/abaco)
 [![Code Climate](https://codeclimate.com/github/interconn-isp/abaco/badges/gpa.svg)](https://codeclimate.com/github/interconn-isp/abaco)
