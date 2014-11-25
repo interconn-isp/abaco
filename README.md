@@ -35,7 +35,7 @@ Abaco extends the `Numeric` class, so you can use with `Fixnum` and `Float`:
 15.5.to_italian # <= "quindici/50"
 ```
 
-You can also call the convert directly:
+You can also call the converter directly:
 
 ```ruby
 Abaco::Converter.convert(15) # <= "quindici/00"
