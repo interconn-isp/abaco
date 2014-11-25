@@ -33,6 +33,15 @@ Or install it yourself as:
 15.5.to_italian # <= "quindici/5"
 ```
 
+## Limitations
+
+Presently, the biggest number Abaco can translate is **999.999.999.999**. Since
+this library is mainly meant to be used for billing purposes, we didn't find it
+necessary to go beyond that limit.
+
+If you're billing someone for one trillion, contact us right away: we'll be glad
+to help you!
+
 ## Contributing
 
 1. Fork it (https://github.com/interconn-isp/abaco/fork)
