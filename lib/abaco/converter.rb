@@ -6,12 +6,12 @@ module Abaco
   # @author Alessandro Desantis <desa.alessandro@gmail.com>
   class Converter
     EXCEPTIONS = {
-      'unocento'   => 'cento',
-      'unomila'    => 'mille',
+      'unocento'    => 'cento',
+      'unomila'     => 'mille',
       'uno m'       => 'un m',
-      /t\wmille/   => 'tunomila',
-      'ntaotto'    => 'ntotto',
-      'ntauno'     => 'ntuno',
+      /t\wmille/    => 'tunomila',
+      'ntaotto'     => 'ntotto',
+      'ntauno'      => 'ntuno',
       'un miliardi' => 'un miliardo',
       'un milioni'  => 'un milione'
     }
