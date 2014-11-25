@@ -65,9 +65,12 @@ to help you! :)
 The [Bollettino](https://github.com/interconn-isp/bollettino) gem can be used
 with Abaco to generate Italian postal payment slips.
 
-## Maintainers
+## Credits
 
 Abaco is developed and maintained by [Alessandro Desantis](https://github.com/alessandro1997).
+
+The original implementation was written by [Giovanni Intini](https://github.com/intinig)
+in an article entitled “[Dai numeri alle lettere](http://old.therubymine.com/2007/2/27/dai-numeri-alle-lettere)”.
 
 ## License
 
