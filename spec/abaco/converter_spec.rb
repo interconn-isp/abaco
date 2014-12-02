@@ -18,7 +18,8 @@ RSpec.describe Abaco::Converter do
       17634 => 'diciassettemilaseicentotrentaquattro/00',
       1973431 => 'un milione novecentosettantatremilaquattrocentotrentuno/00',
       1999197431 => 'un miliardo novecentonovantanove milioni centonovantasettemilaquattrocentotrentuno/00',
-      999999999999 => 'novecentonovantanove miliardi novecentonovantanove milioni novecentonovantanovemilanovecentonovantanove/00'
+      999999999999 => 'novecentonovantanove miliardi novecentonovantanove milioni novecentonovantanovemilanovecentonovantanove/00',
+      288 => 'duecentottantotto/00'
     }.each_pair do |number, result|
       it "converts #{number} as '#{result}'" do
         expect(subject.convert(number)).to eq(result)

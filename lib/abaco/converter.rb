@@ -13,7 +13,8 @@ module Abaco
       'ntaotto'     => 'ntotto',
       'ntauno'      => 'ntuno',
       'un miliardi' => 'un miliardo',
-      'un milioni'  => 'un milione'
+      'un milioni'  => 'un milione',
+      'ntoo'        => 'nto'
     }
 
     NUMBERS = {
