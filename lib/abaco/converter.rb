@@ -48,19 +48,24 @@ module Abaco
       number = number.to_f
 
       tmp = number.to_i
-      result = ''
 
-      9.step(3, -3) do |n|
-        # Is the number in the 10^n form?
-        if Math.log10(tmp).to_i >= n
-          result += describe_part(tmp / 10 ** n)
+      if tmp == 0
+        result = 'zero'
+      else
+        result = ''
 
-          result += ' ' if n >= 6
-          result += SUFFIXES[n]
-          result += ' ' if n >= 6
+        9.step(3, -3) do |n|
+          # Is the number in the 10^n form?
+          if Math.log10(tmp).to_i >= n
+            result += describe_part(tmp / 10 ** n)
+
+            result += ' ' if n >= 6
+            result += SUFFIXES[n]
+            result += ' ' if n >= 6
+          end
+
+          tmp %= 10 ** n
         end
-
-        tmp %= 10 ** n
       end
 
       decimal_part = '/'
